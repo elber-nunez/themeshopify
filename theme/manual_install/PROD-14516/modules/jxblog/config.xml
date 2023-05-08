@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jxblog</name>
+    <displayName><![CDATA[JX Blog]]></displayName>
+    <version><![CDATA[0.0.2]]></version>
+    <description><![CDATA[The best blog-extension for Prestashop platform.]]></description>
+    <author><![CDATA[Zemez (Alexander Grosul)]]></author>
+    <tab><![CDATA[content_management]]></tab>
+	<confirmUninstall><![CDATA[Are you sure that you want to delete the module? All related data will be deleted forever!]]></confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

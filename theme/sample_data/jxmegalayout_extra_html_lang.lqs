@@ -1,0 +1,41 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_html_lang`;
+CREATE TABLE `ps_jxmegalayout_extra_html_lang` (
+  `id_extra_html` int(11) NOT NULL AUTO_INCREMENT,
+  `id_lang` int(11) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `content` text,
+  PRIMARY KEY (`id_extra_html`,`id_lang`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegalayout_extra_html_lang */
+INSERT INTO `ps_jxmegalayout_extra_html_lang` VALUES
+('1','1','LogoDark/Light','<div><a class=\"logo\" href=\"index.php\"> <img class=\"img-fluid dark\" src=\"img/cms/logoDark.png\" width=\"76\" height=\"41\" alt=\"logoDark.png\" /><img class=\"img-fluid light\" src=\"img/cms/logoLight.png\" width=\"76\" height=\"41\" alt=\"logoLight.png\" /></a></div>'),
+('1','2','LogoDark/Light','<div><a class=\"logo\" href=\"index.php\"> <img class=\"img-fluid dark\" src=\"img/cms/logoDark.png\" width=\"76\" height=\"41\" alt=\"logoDark.png\" /><img class=\"img-fluid light\" src=\"img/cms/logoLight.png\" width=\"76\" height=\"41\" alt=\"logoLight.png\" /></a></div>'),
+('1','3','LogoDark/Light','<div><a class=\"logo\" href=\"index.php\"> <img class=\"img-fluid dark\" src=\"img/cms/logoDark.png\" width=\"76\" height=\"41\" alt=\"logoDark.png\" /><img class=\"img-fluid light\" src=\"img/cms/logoLight.png\" width=\"76\" height=\"41\" alt=\"logoLight.png\" /></a></div>'),
+('1','4','LogoDark/Light','<div><a class=\"logo\" href=\"index.php\"> <img class=\"img-fluid dark\" src=\"img/cms/logoDark.png\" width=\"76\" height=\"41\" alt=\"logoDark.png\" /><img class=\"img-fluid light\" src=\"img/cms/logoLight.png\" width=\"76\" height=\"41\" alt=\"logoLight.png\" /></a></div>'),
+('1','5','LogoDark/Light','<div><a class=\"logo\" href=\"index.php\"> <img class=\"img-fluid dark\" src=\"img/cms/logoDark.png\" width=\"76\" height=\"41\" alt=\"logoDark.png\" /><img class=\"img-fluid light\" src=\"img/cms/logoLight.png\" width=\"76\" height=\"41\" alt=\"logoLight.png\" /></a></div>'),
+('2','1','Info block','<div class=\"row separator-list text-center\">\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-truck\"></i> Delivery of goods to the next day to your home or office</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-wallet\"></i> Convenient payment by bank cards, cash and credit</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-gift\"></i> Choose a gift and get discounts just - a gift card!</div>\r\n</div>\r\n</div>'),
+('2','2','Info block','<div class=\"row separator-list text-center\">\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-truck\"></i> Delivery of goods to the next day to your home or office</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-wallet\"></i> Convenient payment by bank cards, cash and credit</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-gift\"></i> Choose a gift and get discounts just - a gift card!</div>\r\n</div>\r\n</div>'),
+('2','3','Info block','<div class=\"row separator-list text-center\">\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-truck\"></i> Delivery of goods to the next day to your home or office</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-wallet\"></i> Convenient payment by bank cards, cash and credit</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-gift\"></i> Choose a gift and get discounts just - a gift card!</div>\r\n</div>\r\n</div>'),
+('2','4','Info block','<div class=\"row separator-list text-center\">\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-truck\"></i> Delivery of goods to the next day to your home or office</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-wallet\"></i> Convenient payment by bank cards, cash and credit</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-gift\"></i> Choose a gift and get discounts just - a gift card!</div>\r\n</div>\r\n</div>'),
+('2','5','Info block','<div class=\"row separator-list text-center\">\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-truck\"></i> Delivery of goods to the next day to your home or office</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-wallet\"></i> Convenient payment by bank cards, cash and credit</div>\r\n</div>\r\n<div class=\"col-12 col-sm-4 py-2 py-md-3\">\r\n<div class=\"box\"><i class=\"linearicons-gift\"></i> Choose a gift and get discounts just - a gift card!</div>\r\n</div>\r\n</div>'),
+('3','1','Blog title','<h1 class=\"h5\"><a href=\"index.php?fc=module&amp;module=jxblog&amp;controller=categories\">Latest news</a></h1>'),
+('3','2','Blog title','<h1 class=\"h5\"><a href=\"index.php?fc=module&amp;module=jxblog&amp;controller=categories\">Neuesten Nachrichten</a></h1>'),
+('3','3','Blog title','<h1 class=\"h5\"><a href=\"index.php?fc=module&amp;module=jxblog&amp;controller=categories\">Последние новости</a></h1>'),
+('3','4','Blog title','<h1 class=\"h5\"><a href=\"index.php?fc=module&amp;module=jxblog&amp;controller=categories\">Últimas noticias</a></h1>'),
+('3','5','Blog title','<h1 class=\"h5\"><a href=\"index.php?fc=module&amp;module=jxblog&amp;controller=categories\">Dernières nouvelles</a></h1>'),
+('4','1','Featured products','<h1 class=\"h5\">Featured products</h1>'),
+('4','2','Featured products','<h1 class=\"h5\">Ausgewählte Produkte</h1>'),
+('4','3','Featured products','<h1 class=\"h5\">Рекомендуемые товары</h1>'),
+('4','4','Featured products','<h1 class=\"h5\">Productos Destacados</h1>'),
+('4','5','Featured products','<h1 class=\"h5\">Produits présentés</h1>'),
+('5','1','Blog description','<p class=\"h4\">Discover the latest news from the world of fashion and learn more about new arrivals and special offers of our store.</p>'),
+('5','2','Blog description',NULL),
+('5','3','Blog description',NULL),
+('5','4','Blog description',NULL),
+('5','5','Blog description',NULL),
+('7','1','Shop description','<p>Our store is offering you our goods, and we are sure that only our choices of garments will suit you best.</p>'),
+('7','2','Shop description','<p>Our store is offering you our goods, and we are sure that only our choices of garments will suit you best.</p>'),
+('7','3','Shop description','<p>Our store is offering you our goods, and we are sure that only our choices of garments will suit you best.</p>'),
+('7','4','Shop description','<p>Our store is offering you our goods, and we are sure that only our choices of garments will suit you best.</p>'),
+('7','5','Shop description','<p>Our store is offering you our goods, and we are sure that only our choices of garments will suit you best.</p>');

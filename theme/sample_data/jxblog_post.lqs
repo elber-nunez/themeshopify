@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `ps_jxblog_post`;
+CREATE TABLE `ps_jxblog_post` (
+  `id_jxblog_post` int(10) NOT NULL AUTO_INCREMENT,
+  `id_jxblog_category_default` int(1) NOT NULL,
+  `author` int(1) NOT NULL,
+  `views` int(1) NOT NULL DEFAULT '0',
+  `active` int(1) NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  `date_start` datetime NOT NULL,
+  PRIMARY KEY (`id_jxblog_post`,`id_jxblog_category_default`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxblog_post */
+INSERT INTO `ps_jxblog_post` VALUES
+('1','1','1','6','1','2018-10-26 04:20:44','2018-11-19 07:11:19','2018-10-26 04:20:44'),
+('2','1','1','1','1','2018-10-26 04:31:02','2018-10-26 04:32:09','2018-10-26 04:31:02'),
+('3','1','1','4','1','2018-10-26 04:33:07','2018-10-26 04:33:07','2018-10-26 04:33:07'),
+('4','1','1','1','1','2018-11-19 07:04:33','2018-11-19 07:09:28','2018-11-19 07:04:33');

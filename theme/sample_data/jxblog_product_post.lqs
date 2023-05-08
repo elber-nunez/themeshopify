@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `ps_jxblog_product_post`;
+CREATE TABLE `ps_jxblog_product_post` (
+  `id_jxblog_post` int(10) NOT NULL,
+  `id_product` int(10) NOT NULL,
+  PRIMARY KEY (`id_jxblog_post`,`id_product`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxblog_product_post */
+INSERT INTO `ps_jxblog_product_post` VALUES
+('1','8'),
+('1','9'),
+('1','10');

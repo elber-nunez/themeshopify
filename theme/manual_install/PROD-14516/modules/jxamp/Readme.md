@@ -1,0 +1,1 @@
+# JX Accelerated Mobile Page

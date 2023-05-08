@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxoneclickorder_fields`;
+CREATE TABLE `ps_jxoneclickorder_fields` (
+  `id_field` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `type` text NOT NULL,
+  `required` tinyint(1) NOT NULL,
+  `specific_class` text NOT NULL,
+  PRIMARY KEY (`id_field`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxoneclickorder_fields */
+INSERT INTO `ps_jxoneclickorder_fields` VALUES
+('1','1','1','name','1',''),
+('2','1','2','number','1','');

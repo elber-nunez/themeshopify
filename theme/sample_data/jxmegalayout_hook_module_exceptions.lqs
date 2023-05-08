@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_hook_module_exceptions`;
+CREATE TABLE `ps_jxmegalayout_hook_module_exceptions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_exceptions` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

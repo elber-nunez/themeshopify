@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jxamp</name>
+    <displayName><![CDATA[JX Accelerated Mobile Page]]></displayName>
+    <version><![CDATA[0.1.0]]></version>
+    <description><![CDATA[This module provides new opportunities for mobile devices and increase pages loading speed]]></description>
+    <author><![CDATA[Zemez (Alexander Grosul)]]></author>
+    <tab><![CDATA[mobile]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,46 @@
+/**
+ * 2017-2018 Zemez
+ *
+ * JX Google Map
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    Zemez
+ *  @copyright 2017-2018 Zemez
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+
+.layout_video,.layout_image {
+  max-width: 280px !important;
+}
+.box-indent-1 {
+  margin-top: 10px;
+}
+#jxgooglemap-iframe-btn {
+  border-collapse: separate;
+  display: table;
+  position: relative;
+}
+#jxgooglemap-iframe-btn .jxgooglemap-input {
+  width: 450px;
+}
+@media only screen and (max-width:768px) {
+  #jxgooglemap-iframe-btn .jxgooglemap-input {
+    width: 340px;
+  }
+}
+@media only screen and (max-width:479px) {
+  #jxgooglemap-iframe-btn .jxgooglemap-input {
+    width: 240px;
+  }
+}

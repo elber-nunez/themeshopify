@@ -1,0 +1,31 @@
+#header {
+  border-bottom: 1px solid #242424;
+}
+.page-index {
+  #header {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+.header-row-1-container {
+  padding: 10px 23px 10px 13px;
+  border-top: 1px solid #2d2d2d;
+}
+.header-row-2-container {
+  background: #fff;
+  padding: 24px;
+  border-top: 1px solid #2d2d2d;
+}
+.user-info-btns {
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.user-info-btns li {
+  float: left;
+  padding-left: 15px;
+}
+.user-info-btns li a {
+  color: #242424;
+}

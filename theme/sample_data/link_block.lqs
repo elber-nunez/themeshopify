@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `ps_link_block`;
+CREATE TABLE `ps_link_block` (
+  `id_link_block` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_hook` int(1) unsigned DEFAULT NULL,
+  `position` int(10) unsigned NOT NULL DEFAULT '0',
+  `content` text,
+  PRIMARY KEY (`id_link_block`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_link_block */
+INSERT INTO `ps_link_block` VALUES
+('2','35','2','{\"cms\":[\"4\",\"6\"],\"product\":[\"prices-drop\",\"new-products\"],\"static\":[\"contact\",\"sitemap\"]}'),
+('3','21','0','{\"cms\":[\"1\"],\"product\":[false],\"static\":[\"contact\",\"sitemap\"]}');

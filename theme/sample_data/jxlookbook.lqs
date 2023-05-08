@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_jxlookbook`;
+CREATE TABLE `ps_jxlookbook` (
+  `id_collection` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `image` text NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `template` text NOT NULL,
+  `active` int(11) NOT NULL,
+  PRIMARY KEY (`id_collection`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook */
+INSERT INTO `ps_jxlookbook` VALUES
+('1','1','img/cms/lookbook.jpg','1','left','1');

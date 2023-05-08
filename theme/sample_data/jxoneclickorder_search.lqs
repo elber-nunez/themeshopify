@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS `ps_jxoneclickorder_search`;
+CREATE TABLE `ps_jxoneclickorder_search` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_order` int(11) NOT NULL,
+  `id_shop` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `word` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxoneclickorder_search */
+INSERT INTO `ps_jxoneclickorder_search` VALUES
+('1','1','0','0','12345678'),
+('2','1','0','0',''),
+('3','1','0','0','Global'),
+('4','1','0','0',''),
+('5','1','0','0','1'),
+('6','1','0','0','0'),
+('7','1','0','0','10'),
+('8','2','0','0','777777777777'),
+('9','2','0','0',''),
+('10','2','0','0','Global'),
+('11','2','0','0',''),
+('12','2','0','0','2'),
+('13','2','0','0','0'),
+('14','2','0','0','11');

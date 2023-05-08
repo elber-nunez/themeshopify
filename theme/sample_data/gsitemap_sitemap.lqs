@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `ps_gsitemap_sitemap`;
+CREATE TABLE `ps_gsitemap_sitemap` (
+  `link` varchar(255) DEFAULT NULL,
+  `id_shop` int(11) DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

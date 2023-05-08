@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `ps_link_block_shop`;
+CREATE TABLE `ps_link_block_shop` (
+  `id_link_block` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_shop` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id_link_block`,`id_shop`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

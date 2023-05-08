@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `ps_jxblog_comment_vote`;
+CREATE TABLE `ps_jxblog_comment_vote` (
+  `id_jxblog_comment` int(10) NOT NULL AUTO_INCREMENT,
+  `id_guest` int(10) NOT NULL,
+  `id_customer` int(10) NOT NULL,
+  PRIMARY KEY (`id_jxblog_comment`,`id_guest`,`id_customer`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

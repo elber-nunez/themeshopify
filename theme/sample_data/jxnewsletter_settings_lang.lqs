@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS `ps_jxnewsletter_settings_lang`;
+CREATE TABLE `ps_jxnewsletter_settings_lang` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_jxnewsletter` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `content` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxnewsletter_settings_lang */
+INSERT INTO `ps_jxnewsletter_settings_lang` VALUES
+('41','9','1','Newsletter','Enter your email for the chance to win'),
+('42','9','2','Newsletter','Enter your email for the chance to win'),
+('43','9','3','Newsletter','Enter your email for the chance to win'),
+('44','9','4','Newsletter','Enter your email for the chance to win'),
+('45','9','5','Newsletter','Enter your email for the chance to win'),
+('46','10','1','Newsletter','Enter your email for the chance to win'),
+('47','10','2','Newsletter','Enter your email for the chance to win'),
+('48','10','3','Newsletter','Enter your email for the chance to win'),
+('49','10','4','Newsletter','Enter your email for the chance to win'),
+('50','10','5','Newsletter','Enter your email for the chance to win');

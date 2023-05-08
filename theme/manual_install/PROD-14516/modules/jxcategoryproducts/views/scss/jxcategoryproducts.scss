@@ -1,0 +1,15 @@
+.category-block.swiper-container {
+  margin-bottom: 30px;
+  .swiper-wrapper {
+    box-sizing: border-box;
+  }
+  &.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+  }
+  .product-miniature {
+    margin: 0;
+    .thumbnail-container {
+      width: auto;
+    }
+  }
+}

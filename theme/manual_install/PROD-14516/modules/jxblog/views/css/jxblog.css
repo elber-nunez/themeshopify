@@ -1,0 +1,69 @@
+/**
+ * 2017-2018 Zemez
+ *
+ * JX Blog
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    Zemez (Alexander Grosul)
+ *  @copyright 2017-2018 Zemez
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+ */
+
+.blog-category .blog-category-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.blog-category .blog-category-info .btn {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.blog-category .blog-category-info .btn:not(.active) span:last-child {
+  display: none;
+}
+
+.blog-category .blog-category-info .btn:not(.active) + .blog-category-description-short + .blog-category-description {
+  display: none;
+}
+
+.blog-category .blog-category-info .btn.active span:first-child {
+  display: none;
+}
+
+.blog-category .blog-category-info .btn.active + .blog-category-description-short {
+  display: none;
+}
+
+.post-meta.author-hidden .post-author {
+  display: none;
+}

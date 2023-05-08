@@ -1,0 +1,1 @@
+<div class="alert alert-info">{l s='Documentation:' mod='jxwishlist'} <a href="http://info.template-help.com/help/quick-start-guide/prestashop-themes/v1-5/index.php?project=default&lang=en&section=custom-modules#jxwishlist" target="_blank">http://info.template-help.com</a></div>

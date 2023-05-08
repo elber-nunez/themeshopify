@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `ps_jxmegamenu_settings`;
+CREATE TABLE `ps_jxmegamenu_settings` (
+  `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `hook_name` varchar(100) DEFAULT NULL,
+  `googleapi` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_item`,`id_shop`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

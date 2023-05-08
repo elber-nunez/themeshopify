@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS `ps_jxcategoryproducts`;
+CREATE TABLE `ps_jxcategoryproducts` (
+  `id_tab` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `hook_name` varchar(128) NOT NULL,
+  `category` int(11) NOT NULL,
+  `num` int(11) NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `active` int(11) NOT NULL,
+  `select_products` int(11) NOT NULL,
+  `selected_products` text NOT NULL,
+  `use_carousel` int(11) NOT NULL,
+  `carousel_settings` varchar(450) NOT NULL,
+  `use_name` int(11) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxcategoryproducts */
+INSERT INTO `ps_jxcategoryproducts` VALUES
+('1','1','displayHome','12','0','0','1','1','[\"18\",\"22\",\"26\",\"23\"]','0','{\"carousel_nb\":4,\"carousel_slide_margin\":20,\"carousel_auto\":false,\"carousel_item_scroll\":1,\"carousel_speed\":500,\"carousel_auto_pause\":3000,\"carousel_loop\":true,\"carousel_hide_control\":true,\"carousel_pager\":false,\"carousel_control\":false}','0'),
+('2','1','displayHome','13','0','0','1','1','[\"28\",\"38\",\"36\",\"31\"]','0','{\"carousel_nb\":4,\"carousel_slide_margin\":20,\"carousel_auto\":false,\"carousel_item_scroll\":1,\"carousel_speed\":500,\"carousel_auto_pause\":3000,\"carousel_loop\":true,\"carousel_hide_control\":true,\"carousel_pager\":false,\"carousel_control\":false}','0'),
+('3','1','displayHome','14','0','0','1','1','[\"11\",\"20\",\"19\",\"12\"]','0','{\"carousel_nb\":4,\"carousel_slide_margin\":20,\"carousel_auto\":false,\"carousel_item_scroll\":1,\"carousel_speed\":500,\"carousel_auto_pause\":3000,\"carousel_loop\":true,\"carousel_hide_control\":true,\"carousel_pager\":false,\"carousel_control\":false}','0'),
+('4','1','displayHome','15','0','0','1','1','[\"37\",\"30\",\"33\",\"36\"]','0','{\"carousel_nb\":4,\"carousel_slide_margin\":20,\"carousel_auto\":false,\"carousel_item_scroll\":1,\"carousel_speed\":500,\"carousel_auto_pause\":3000,\"carousel_loop\":true,\"carousel_hide_control\":true,\"carousel_pager\":false,\"carousel_control\":false}','0');

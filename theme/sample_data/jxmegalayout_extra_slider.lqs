@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_slider`;
+CREATE TABLE `ps_jxmegalayout_extra_slider` (
+  `id_extra_slider` int(11) NOT NULL AUTO_INCREMENT,
+  `specific_class` text,
+  `visible_items` int(11) DEFAULT NULL,
+  `items_scroll` int(11) DEFAULT NULL,
+  `margin` int(11) DEFAULT NULL,
+  `speed` int(11) DEFAULT NULL,
+  `auto_scroll` int(11) DEFAULT NULL,
+  `pause` int(11) DEFAULT NULL,
+  `loop` int(11) DEFAULT NULL,
+  `pager` int(11) DEFAULT NULL,
+  `controls` int(11) DEFAULT NULL,
+  `auto_height` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id_extra_slider`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+

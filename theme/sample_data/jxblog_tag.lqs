@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `ps_jxblog_tag`;
+CREATE TABLE `ps_jxblog_tag` (
+  `id_jxblog_tag` int(10) NOT NULL AUTO_INCREMENT,
+  `id_lang` int(10) NOT NULL,
+  `tag` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_jxblog_tag`,`id_lang`,`tag`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

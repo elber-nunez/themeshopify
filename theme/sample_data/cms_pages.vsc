@@ -1,0 +1,236 @@
+"CMS Page ID";"CMS Category ID";Position;"Active (0/1)";Indexation;"Meta tile";"Meta description";"Meta keywords";Content;"URL rewritten"
+1;1;0;1;0;Delivery;"Our terms and conditions of delivery";"conditions, delivery, delay, shipment, pack";"<div class=""border_bottom"">Hello and welcome to shipping and delivery page! Here you can read some details about a nifty little lifecycle of your order's journey from the time you place your order to your new treasures arriving at your doorstep. At first you choose the product you like. Then you put into your shopping cart and pass the checkout process in a few clicks. Our store offers several payment and delivery methods, so you have an opportunity to choose which one is the most convenient for you.</div>
+<ul class=""list-2 border_bottom mt-3""><li><i class=""linearicons-man2""></i>
+<h4>Cash &amp; carry</h4>
+<p>If you choose cash and carry method, please note that this means that you should pay cash for the goods you purchase and carry them away yourself. In this case we do not offer credit accounts and delivery service. This is a common policy for cash and carry delivery method. Not too convenient for you? Please read on and get to know what else delivery methods do we provide. Please be sure that we have foreseen different situations and offer other delivery methods that may fit you best.</p>
+</li>
+<li><i class=""linearicons-truck""></i>
+<h4>Pick-up from a Post parcel point in your city</h4>
+<p>A parcel point is an easy and convenient way to receive items in your city. Shop in our online store, then selects the parcel point as the delivery type and choose the preferred pick-up location. The item will be in the parcel point selected by you the next day after 4 p.m., or some time later in some areas. The Parcel Points are available in central locations and during the opening hours of shops, also on weekends. More than half customers pick up their parcel already on the day of its delivery.</p>
+</li>
+<li><i class=""linearicons-home icon3""></i>
+<h4>Shipment to the door</h4>
+<p>What happens when you choose shipment to the door option? Our store takes responsibility for dealing with all the tasks involved in moving goods from the manufacturing plant to the buyer/consignee's door. It is our responsibility to insure the goods and absorb all costs and risks including the payment of duty and fees. In other words, the selling cost of goods includes all expenses inclusive of taxes to reach the goods at the door step of your premises.</p>
+</li>
+<li><i class=""linearicons-network""></i>
+<h4>International delivery</h4>
+<p>International delivery is regulated by EXW, Incoterms 2010. Any dates quoted for delivery of the goods are approximate only and the store shall not be deemed to be in delay in delivery of the goods unless actual delivery of goods occurs later than four weeks from the quoted approximate delivery date and having received the Buyer’s written notification. The buyer shall comply with all laws governing the importation of the goods into the country of destination.</p>
+</li>
+</ul>";delivery
+2;1;1;1;0;"Legal Notice";"Legal notice";"notice, legal, credits";"<p class=""border_bottom2"" style=""text-align:left;"">Unless otherwise indicated on the face of the invoice, all prices are quoted on a per pound basis. Buyer is responsible for any tax or government charges imposed upon the sale or transfer of the Product. Buyer shall not have any right to set off any amounts due hereunder against any amounts which may become payable to Seller under any other agreement.</p>
+<ul class=""list-check""><li>
+<h3><i class=""linearicons-checkmark-circle""></i>How can I pay for my order?</h3>
+<p>We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.<br /><br /></p>
+</li>
+<li>
+<h3><i class=""linearicons-checkmark-circle""></i>Can I track my order?</h3>
+<p>Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 24 hours after your order is placed. Within 72 hours of you placing your order, you will receive an expected delivery date. When the order ships, you will receive another email with the tracking number and a link to trace the order online with the carrier.<br /><br /></p>
+</li>
+</ul><p><br /><br />Concept and production:</p>
+<p>This Web site was created using <a href=""http://www.prestashop.com"">PrestaShop</a>™ open-source software.</p>";legal-notice
+3;1;2;1;0;"Terms and conditions of use";"Our terms and conditions of use";"conditions, terms, use, sell";"<h3 class=""page-subheading"">General information</h3>
+<p class=""bottom-indent"">Welcome to our Privacy Policy page! When you use our store services, you trust us with your information. This Privacy Policy is meant to help you understand what data we collect, why we collect it, and what we do with it. When you share information with us, we can make our services even better for you. For instance, we can show you more relevant search results and ads, help you connect with people or to make sharing with others quicker and easier. As you use our services, we want you to be clear how we’re using information and the ways in which you can protect your privacy. This is important; we hope you will take time to read it carefully. Remember, you can find controls to manage your information and protect your privacy and security. We’ve tried to keep it as simple as possible.</p>
+<h3 class=""page-subheading"">Right to access, correct and delete data and to object to data processing</h3>
+<p class=""bottom-indent"">Our customers have the right to access, correct and delete personal data relating to them, and to object to the processing of such data, by addressing a written request, at any time. The Company makes every effort to put in place suitable precautions to safeguard the security and privacy of personal data, and to prevent it from being altered, corrupted, destroyed or accessed by unauthorized third parties. However, the Company does not control each and every risk related to the use of the Internet, and therefore warns the Site users of the potential risks involved in the functioning and use of the Internet. The Site may include links to other web sites or other internet sources. As the Company cannot control these web sites and external sources, the Company cannot be held responsible for the provision or display of these web sites and external sources, and may not be held liable for the content, advertising, products, services or any other material available on or from these web sites or external sources.</p>
+<h3 class=""page-subheading"">Management of personal data</h3>
+<p class=""bottom-indent"">You can view or edit your personal data online for many of our services. You can also make choices about our collection and use of your data. How you can access or control your personal data will depend on which services you use. You can choose whether you wish to receive promotional communications from our store by email, SMS, physical mail, and telephone. If you receive promotional email or SMS messages from us and would like to opt out, you can do so by following the directions in that message. You can also make choices about the receipt of promotional email, telephone calls, and postal mail by visiting and signing into Company Promotional Communications Manager, which allows you to update contact information, manage contact preferences, opt out of email subscriptions, and choose whether to share your contact information with our partners. These choices do not apply to mandatory service communications that are part of certain store services.</p>
+<h3 class=""page-subheading"">Information We Collect</h3>
+<p class=""bottom-indent"">Our store collects data to operate effectively and provide you the best experiences with our services. You provide some of this data directly, such as when you create a personal account. We get some of it by recording how you interact with our services by, for example, using technologies like cookies, and receiving error reports or usage data from software running on your device. We also obtain data from third parties (including other companies). For example, we supplement the data we collect by purchasing demographic data from other companies. We also use services from other companies to help us determine a location based on your IP address in order to customize certain services to your location. The data we collect depends on the services and features you use.</p>
+<h3 class=""page-subheading"">How We Use Your Information</h3>
+<p class=""bottom-indent"">Our store uses the data we collect for three basic purposes: to operate our business and provide (including improving and personalizing) the services we offer, to send communications, including promotional communications, and to display advertising. In carrying out these purposes, we combine data we collect through the various store services you use to give you a more seamless, consistent and personalized experience. However, to enhance privacy, we have built in technological and procedural safeguards designed to prevent certain data combinations. For example, we store data we collect from you when you are unauthenticated (not signed in) separately from any account information that directly identifies you, such as your name, email address or phone number.</p>
+<h3 class=""page-subheading"">Sharing Your Information</h3>
+<p class=""bottom-indent"">We share your personal data with your consent or as necessary to complete any transaction or provide any service you have requested or authorized. For example, we share your content with third parties when you tell us to do so. When you provide payment data to make a purchase, we will share payment data with banks and other entities that process payment transactions or provide other financial services, and for fraud prevention and credit risk reduction. In addition, we share personal data among our controlled affiliates and subsidiaries. We also share personal data with vendors or agents working on our behalf for the purposes described in this statement. For example, companies we've hired to provide customer service support or assist in protecting and securing our systems and services may need access to personal data in order to provide those functions. In such cases, these companies must abide by our data privacy and security requirements and are not allowed to use personal data they receive from us for any other purpose. We may also disclose personal data as part of a corporate transaction such as a merger or sale of assets.</p>";terms-and-conditions-of-use
+4;1;3;1;0;"About us";"Learn more about us";"about us, informations";"<h3 class=""text-center"">Catering to your requirements, handling your needs with care</h3>
+<p class=""text-center"">Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience. Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc. Purchase the goods you need every day or just like in a few clicks or taps, depending on the device you use to access the Internet. We work to make your life more enjoyable.<br /><br /><br /></p>
+<div class=""border_bottom2"">
+<ul class=""animateCount row"">
+<li class=""col-12 col-md-4""><span class=""count"">14500</span>
+<h5>Products available</h5>
+</li>
+<li class=""col-12 col-md-4""><span class=""count"">81</span>%
+<h5>Clients come back</h5>
+</li>
+<li class=""col-12 col-md-4""><span class=""count"">10</span>mln
+<h5>Site members</h5>
+</li>
+</ul>
+</div>
+<h2 class=""h3"" style=""text-align:center;"">Store events</h2>
+<div class=""border_bottom2"">
+<ul class=""row list-4"">
+<li class=""col-12 col-md-4 fl-outicons-magnifying-glass34"">
+<h4>For convenience of choice</h4>
+<p>We think about the convenience of your choice. Our products are supplied with star rating that should help hesitant buyers to take a decision. What’s more, you can search our site if you know exactly what you are looking for or use a bunch of different filters that will considerably save your time and efforts.</p>
+</li>
+<li class=""col-12 col-md-4 fl-outicons-truck72"">
+<h4>Delivery products to all regions</h4>
+<p>We deliver our goods worldwide. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.</p>
+</li>
+<li class=""col-12 col-md-4 fl-outicons-like83"">
+<h4>The highest quality of products</h4>
+<p>We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch can escape the eye of our professionals.</p>
+</li>
+</ul>
+</div>
+<h2 class=""h3"" style=""text-align:center;"">Our team</h2>
+<div class=""border_bottom2"">
+<ul class=""row list-4"">
+<li class=""col-12 col-md-3""><img src=""img/cms/our_team_1.jpg"" alt="""" width=""270"" height=""269"" /><br />
+<h4>ROBERT JOHNSON</h4>
+<p>Senior salesman with 15 years of experience. He knows everything about the products he offers.</p>
+</li>
+<li class=""col-12 col-md-3""><img src=""img/cms/our_team_2.jpg"" alt="""" width=""270"" height=""269"" /><br />
+<h4>JESSICA PRISTON</h4>
+<p>Mega positive shop assistant always ready to help you make the right choice and charm you with a smile.</p>
+</li>
+<li class=""col-12 col-md-3""><img src=""img/cms/our_team_3.jpg"" alt="""" width=""270"" height=""269"" /><br />
+<h4>SAM KROMSTAIN</h4>
+<p>Wholesale manager. Contact him if you want to buy a batch of the products offered at our store.</p>
+</li>
+<li class=""col-12 col-md-3""><img src=""img/cms/our_team_4.jpg"" alt="""" width=""270"" height=""269"" /><br />
+<h4>EDNA BARTON</h4>
+<p>Quality control manager. Her mission is to check the products we ship and settle quality issues if any.</p>
+</li>
+</ul>
+</div>
+<h2 class=""h3"" style=""text-align:center;"">Testimonials</h2>
+<div class=""u-carousel uc-el-testimonial uc-pag"">
+<div id=""testimonials"">
+<div class=""testimonial""><i class=""linearicons-bubble""></i>
+<p>Guys, you rock! Made a purchase at your store recently. The order has been shipped and delivered on time. The quality is superb! The price is quite reasonable. Told all my friends about your excellent service and the variety of choice. I think I’ll be your loyal customer in future as well. I wish your store many more years of prosperity.</p>
+<h5>Mary Taba</h5>
+</div>
+<div class=""testimonial""><i class=""linearicons-bubble""></i>
+<p>Thank you again and again! I have experienced the fastest support ever. My order arrived on my door step the following day. Your team is always, friendly and very helpful. You managed to exceed my expectations!</p>
+<h5>Virginia Ubert</h5>
+</div>
+<div class=""testimonial""><i class=""linearicons-bubble""></i>
+<p>Hi, guys! I want to thank you for my very very quick delivery and I just love my order… Your company efficient services and customer care are second to none! I am very happy! I will surely share my experience with my friends!</p>
+<h5>SAM KROMSTAIN</h5>
+</div>
+<div class=""testimonial""><i class=""linearicons-bubble""></i>
+<p>Having the distressing experience with some online shops before decided to say ‘’THANK YOU” to all personnel of this store. You are not only friendly, but deliver really good products in the shortest possible terms. In a word, I am absolutely happy with my purchase and the service. Everything was perfect!</p>
+<h5>EDNA BARTON</h5>
+</div>
+</div>
+</div>";about-us
+5;1;4;1;0;"Secure payment";"Our secure payment method";"secure payment, ssl, visa, mastercard, paypal";"<ul class=""list-2""><li>
+<h3>Visa &amp; mastercard</h3>
+<p>Payment is the final step of the purchasing process. It should never be an obstacle. Our store pays special attention to this point as making payment in a secured environment is a primary concern of individuals. With e-commerce growth, and more recently the m-commerce evolution, it is essential to choose a payment solution optimized to Smartphone’s and tablets. It is equally important to choose the solution which offers a specific selection of credit cards that are most popular in the merchants target markets. We take Visa &amp; MasterCard as they are widely used by cyber customers.</p>
+</li>
+<li>
+<h3>Noncash payment</h3>
+<p>Noncash is a method of paying for goods and services that does not involve the exchange of cash. Examples of noncash payment instruments include checks and credit cards. In the United States, most noncash payments are made using checks, credit cards, debit cards, and the electronic payment system called the automated clearinghouse (ACH) — collectively referred to as retail noncash payments. Just choose which of the listed noncash payment methods is more convenient for you.</p>
+</li>
+<li>
+<h3>Cash payment</h3>
+<p>Cash payment is a form of liquid funds given by a consumer to a provider of goods or services (our store in the given case) as compensation for receiving the products we provide. In most domestic business transactions, a cash payment will typically be made in the currency of the country where the transaction takes place, either in paper currency, in coins or in an appropriate combination. Keeping cash on hand can be a great way to avoid overspending. You can choose exactly how much cash you're willing to spend and stop spending when you're out of cash.</p>
+</li>
+</ul>";secure-payment
+6;1;5;1;0;"Pages configuration";;;"<div class=""block"">
+<div>
+<h3>1. Position section of the modules list.</h3>
+<p>After activating all necessary modules you need to assign them to correct positions. In PrestaShop admin panel from the top menu select Design &gt; Positions. To place module in the required position just drag it to the position section of the modules list.</p>
+<table class=""table table-bordered table-hover""><tbody><tr><th>Module name</th><th>Position</th><th>Order</th></tr><tr><td>JX Header Account v2.0</td>
+<td>displayTop</td>
+<td>1</td>
+</tr><tr><td>Sopping cart v2.0.1</td>
+<td>displayTop</td>
+<td>2</td>
+</tr><tr><td>Currency selector v2.0.0</td>
+<td>displayTop</td>
+<td>3</td>
+</tr><tr><td>Language selector v2.0.2</td>
+<td>displayTop</td>
+<td>4</td>
+</tr><tr><td>JX Search v1.3.0</td>
+<td>displayTop</td>
+<td>5</td>
+</tr><tr><td>JX Mega Menu v1.7.7</td>
+<td>displayTop</td>
+<td>6</td>
+</tr><tr><td>E-mail subscription form v2.1.0</td>
+<td>displayTop</td>
+<td>7</td>
+</tr><tr><td>JX Wishlist v1.0.0</td>
+<td>displayTop</td>
+<td>8</td>
+</tr><tr><td>Social media follow links v2.0.0</td>
+<td>displayFooter</td>
+<td>1</td>
+</tr><tr><td>Link List v2.1.4</td>
+<td>displayFooter</td>
+<td>2</td>
+</tr><tr><td>JX Compare Product v1.0.0</td>
+<td>displayFooter</td>
+<td>3</td>
+</tr><tr><td>JX Homepage Category Gallery v1.2.4</td>
+<td>displayTopColumn</td>
+<td>1</td>
+</tr><tr><td>JX Mega Layout v1.3.0</td>
+<td>displayHomeTabContent</td>
+<td>1</td>
+</tr><tr><td>JX Mega Layout v1.3.0</td>
+<td>displayHomeTab</td>
+<td>1</td>
+</tr></tbody></table><h3>2. Configuring images</h3>
+<p>In PrestaShop you can use predefined image dimensions for product images, category images, manufacturers etc.</p>
+<p>For example, images of the <strong>'home'</strong> dimensions are usually used for the category listing product images, <strong>'large'</strong> for main product image on the product info page.</p>
+<p>To configure product image dimensions, open your PrestaShop admin panel, go to <strong>Design &gt; Image Settings</strong> and set the image dimensions as displayed below:</p>
+<table class=""table table-bordered table-hover""><tbody><tr><th>Picture</th><th>Width (px)</th><th>Height (px)</th></tr><tr><td>cart_default</td>
+<td>170</td>
+<td class=""presta_center"">198</td>
+</tr><tr><td>category_default</td>
+<td>1920</td>
+<td class=""presta_center"">1019</td>
+</tr><tr><td>home_default</td>
+<td>525</td>
+<td class=""presta_center"">610</td>
+</tr><tr><td>large_default</td>
+<td>860</td>
+<td class=""presta_center"">1000</td>
+</tr><tr><td>medium_default</td>
+<td>388</td>
+<td class=""presta_center"">451</td>
+</tr><tr><td>small_default</td>
+<td>98</td>
+<td class=""presta_center"">114</td>
+</tr><tr><td>stores_default</td>
+<td>170</td>
+<td class=""presta_center"">115</td>
+</tr></tbody></table></div>
+</div>";pages-configuration
+7;1;6;1;0;FAQs;;;"<p class=""border_bottom mb-6"" style=""text-align:center;"">If you need help, we have a list of frequently asked questions and answers. We strive to give you the best buying experience possible. Click a question below to view the answer.</p>
+<ul class=""list-accordion"">
+<li>
+<h3 class=""accordion_current"">How can I change something in my order?</h3>
+<ul class=""list-3 disk accordion_content"">
+<li class=""text"">If you need to change something your order, please contact us immediately. We usually process orders within 2-4 hours, and once we have processed your order, we will be unable to make any changes.</li>
+<li>
+<h4>Change order</h4>
+</li>
+<li>
+<h4>cancel order online</h4>
+</li>
+<li>
+<h4>cancel order using automated system</h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 class=""accordion_current mt-3"">How can I pay for my order?</h3>
+<p class=""accordion_content"">We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.</p>
+<hr /></li>
+<li>
+<h3 class=""accordion_current"">Can I track my order?</h3>
+<p class=""accordion_content"">Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 24 hours after your order is placed. Within 72 hours of you placing your order, you will receive an expected delivery date. When the order ships, you will receive another email with the tracking number and a link to trace the order online with the carrier.</p>
+<hr /></li>
+<li>
+<h3 class=""accordion_current"">Can I return an item?</h3>
+<p class=""accordion_content"">Please visit our Returns &amp; Exchanges page for more information.</p>
+<hr /></li>
+<li>
+<h3 class=""accordion_current"">How long will my order take to be delivered?</h3>
+<p class=""accordion_content"">Delivery times will depend on your location. Once payment is confirmed your order will be packaged. Delivery can be expected within 10 business days.</p>
+</li>
+</ul>";faqs

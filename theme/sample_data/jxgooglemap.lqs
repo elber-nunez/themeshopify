@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxgooglemap`;
+CREATE TABLE `ps_jxgooglemap` (
+  `id_tab` int(11) NOT NULL AUTO_INCREMENT,
+  `hook_name` varchar(100) NOT NULL,
+  `default` int(11) NOT NULL,
+  `id_store` int(11) NOT NULL,
+  `id_shop` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `marker` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxgooglemap */
+INSERT INTO `ps_jxgooglemap` VALUES
+('1','displayHome','1','3','1','1','marker-EGCCq3bV-1.jpg');

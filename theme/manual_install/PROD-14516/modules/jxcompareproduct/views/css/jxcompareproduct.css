@@ -1,0 +1,202 @@
+.compare-header {
+  padding: 14px; }
+
+#compare-footer {
+  bottom: 0;
+  display: block;
+  position: fixed;
+  right: 0;
+  table-layout: fixed;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 5010;
+  transform: translateX(100%);
+  transition: all 0.3s ease; }
+  #compare-footer .no-products {
+    padding: 10px 10px 0;
+    font-size: 12px; }
+  #compare-footer.visible-compare-footer {
+    transform: translateX(0); }
+  #compare-footer .compare-img {
+    display: block;
+    float: left; }
+    #compare-footer .compare-img img {
+      max-width: 100%;
+      height: auto; }
+  #compare-footer .compare-footer-grover {
+    position: absolute;
+    left: -50px;
+    bottom: -1px;
+    height: 50px;
+    width: 50px;
+    z-index: 5010;
+    border: 1px solid #ccc;
+    border-right: 0;
+    background: #fff; }
+    #compare-footer .compare-footer-grover i {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      text-align: center; }
+    #compare-footer .compare-footer-grover .counter {
+      font-size: 10px;
+      line-height: 13px;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #ccc;
+      display: block;
+      text-align: center;
+      border-radius: 100px;
+      position: absolute;
+      left: 2px;
+      top: 2px; }
+  #compare-footer .buttons {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center; }
+    #compare-footer .buttons a {
+      margin-right: 20px;
+      font-size: 12px; }
+      #compare-footer .buttons a:hover {
+        color: #333333; }
+  #compare-footer .compare-product-element {
+    position: relative;
+    float: left; }
+    #compare-footer .compare-product-element a {
+      position: absolute;
+      right: 5px;
+      top: 5px; }
+      #compare-footer .compare-product-element a:hover {
+        color: #333333; }
+
+.product-miniature .compare-button {
+  position: absolute;
+  left: 3px;
+  top: 0; }
+  .product-miniature .compare-button span {
+    display: none; }
+  .product-miniature .compare-button.selected {
+    color: #000000; }
+
+.compare-page .product-miniature {
+  float: left; }
+
+#modal-compare {
+  text-align: center; }
+  #modal-compare:not(.with-products) #compare-products, #modal-compare:not(.with-products) #compare-features {
+    display: none; }
+  #modal-compare .modal-dialog {
+    text-align: center;
+    max-width: 100%;
+    display: inline-block;
+    width: auto; }
+  #modal-compare.with-products .modal-content {
+    border: none; }
+    #modal-compare.with-products .modal-content .modal-content-compare {
+      border-right: 1px solid #fcfcfc;
+      padding-left: 20px;
+      overflow-y: auto;
+      background: #1a1a1a; }
+      #modal-compare.with-products .modal-content .modal-content-compare #compare-products {
+        background: white;
+        display: flex; }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-products > div {
+          min-width: 200px;
+          max-width: 200px;
+          text-align: center;
+          background: white;
+          border-left: 1px solid #fcfcfc;
+          border-top: 1px solid #fcfcfc; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-products > div:first-child {
+            background: none;
+            border: none;
+            transition: all .2s;
+            transition-timing-function: cubic-bezier(0.2, 0, 0.065, 0.25); }
+            #modal-compare.with-products .modal-content .modal-content-compare #compare-products > div:first-child > div {
+              min-width: 200px;
+              transition: all .2s;
+              transition-timing-function: cubic-bezier(0.2, 0, 0.065, 0.25); }
+          @media (max-width: 767px) {
+            #modal-compare.with-products .modal-content .modal-content-compare #compare-products > div {
+              min-width: 150px;
+              max-width: 150px; }
+              #modal-compare.with-products .modal-content .modal-content-compare #compare-products > div:first-child > div {
+                min-width: 200px; } }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-products.close-titles > div:first-child {
+          min-width: 0;
+          max-width: 100%; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-products.close-titles > div:first-child > div {
+            margin-left: -200px; }
+      #modal-compare.with-products .modal-content .modal-content-compare #compare-features {
+        position: relative;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #1a1a1a; }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-features .features-toggle {
+          position: absolute;
+          right: 100%;
+          top: 0;
+          bottom: 0;
+          width: 20px;
+          background: #1a1a1a;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          color: white;
+          cursor: pointer;
+          transition: all .2s;
+          transition-timing-function: cubic-bezier(0.2, 0, 0.065, 0.25); }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .features-toggle:hover {
+            color: #666666; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .features-toggle span {
+            letter-spacing: 0.8em;
+            writing-mode: vertical-rl;
+            text-orientation: upright; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .features-toggle i {
+            font-size: 16px;
+            transition: all 0.3s ease; }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-title {
+          transition: all .2s;
+          transition-timing-function: cubic-bezier(0.2, 0, 0.065, 0.25); }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-features.close-titles .features-toggle {
+          color: #666666; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features.close-titles .features-toggle i {
+            transform: rotate(180deg); }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features.close-titles .features-toggle:hover {
+            color: white; }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-features.close-titles .compare-features-row .compare-features-title {
+          margin-left: -200px;
+          color: #f6f6f6; }
+          @media (max-width: 767px) {
+            #modal-compare.with-products .modal-content .modal-content-compare #compare-features.close-titles .compare-features-row .compare-features-title {
+              margin-left: -150px; } }
+        #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row {
+          display: flex; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row:nth-child(even) .compare-features-item {
+            background: #f6f6f6; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row:nth-child(odd) .compare-features-item {
+            background: white; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row:last-child > div:not(:first-child) {
+            border-bottom: 1px solid #fcfcfc; }
+          #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row > div {
+            min-width: 200px;
+            max-width: 200px;
+            padding: 17px 10px 14px;
+            text-align: center;
+            border-left: 1px solid #fcfcfc; }
+            #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row > div:first-child {
+              text-align: left;
+              background: #f6f6f6;
+              border: none;
+              font-weight: bold;
+              padding-left: 30px; }
+            @media (max-width: 767px) {
+              #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row > div {
+                min-width: 150px;
+                max-width: 150px;
+                padding: 9px 5px 8px; }
+                #modal-compare.with-products .modal-content .modal-content-compare #compare-features .compare-features-row > div:first-child {
+                  padding-left: 15px; } }

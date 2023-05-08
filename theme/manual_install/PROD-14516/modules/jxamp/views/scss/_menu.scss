@@ -1,0 +1,82 @@
+#sidebar {
+  width: 250px;
+  background: #fff;
+}
+.amp-start-btn {
+  background: none;
+  border: none;
+  color: #fff;
+}
+.col-auto.menu-btns {
+  padding: 3px 10px 0 0;
+}
+.menu-btns .amp-start-btn {
+  font-size: 18px;
+  line-height: 22px;
+  min-width: 32px;
+}
+
+amp-sidebar {
+  h4.menu-item {
+    position: relative;
+    background: none;
+    border-bottom: 1px solid #242424;
+    border-top: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    a {
+      color: #242424;
+      text-decoration: none;
+      display: block;
+      padding: 15px 0 15px 23px;
+    }
+    &.depth-2 {
+      a {
+        padding-left: 30px;
+      }
+    }
+    &.depth-3 {
+      a {
+        padding-left: 35px;
+      }
+    }
+    &.depth-4 {
+      a {
+        padding-left: 40px;
+      }
+    }
+    &.depth-5 {
+      a {
+        padding-left: 45px;
+      }
+    }
+    i {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1;
+      width: 50px;
+      height: 46px;
+      line-height: 44px;
+      text-align: center;
+    }
+  }
+
+  h4[aria-expanded="true"] {
+    i.show {
+      display: none;
+    }
+    i.hide {
+      display: block;
+    }
+  }
+  h4[aria-expanded="false"] {
+    i.show {
+      display: block;
+    }
+    i.hide {
+      display: none;
+    }
+  }
+
+}

@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `ps_jxgooglemap_settings`;
+CREATE TABLE `ps_jxgooglemap_settings` (
+  `id_setting` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `hook_name` varchar(100) NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  `setting_name` varchar(100) DEFAULT NULL,
+  `value` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_setting`,`hook_name`,`id_shop`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+

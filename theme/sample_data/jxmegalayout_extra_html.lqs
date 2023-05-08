@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_html`;
+CREATE TABLE `ps_jxmegalayout_extra_html` (
+  `id_extra_html` int(11) NOT NULL AUTO_INCREMENT,
+  `specific_class` text,
+  PRIMARY KEY (`id_extra_html`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegalayout_extra_html */
+INSERT INTO `ps_jxmegalayout_extra_html` VALUES
+('1',NULL),
+('2',NULL),
+('3',NULL),
+('4',NULL),
+('5','px-xl-6'),
+('7',NULL);

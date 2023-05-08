@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jxfeaturedposts</name>
+    <displayName><![CDATA[JX Featured Posts]]></displayName>
+    <version><![CDATA[0.0.3]]></version>
+    <description><![CDATA[The module allows to show featured posts from JX Blog on your store homepage.]]></description>
+    <author><![CDATA[Zemez (Alexander Grosul)]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure want uninstall the module? All related data will be lost.]]></confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

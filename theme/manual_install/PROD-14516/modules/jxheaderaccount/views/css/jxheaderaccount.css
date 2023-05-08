@@ -1,0 +1,252 @@
+/*
+* @package      Style for JX Header Account
+* @description  This section holds specific style redeclarations for
+*               JX Header Account
+*/
+
+#jx-header-account-link {
+  display: block;
+  padding: 14px;
+}
+
+@media (max-width: 1199px) {
+  #jx-header-account-link span {
+    display: none;
+  }
+}
+
+/*
+* @section      Style for login wrapper
+* @description  This section holds specific style redeclarations for
+*               login content wrapper
+*/
+
+.jx-header-account-wrapper {
+  padding: 30px;
+  width: 250px;
+}
+
+@media (min-width: 768px) {
+  .jx-header-account-wrapper {
+    width: 500px;
+  }
+
+  .jx-header-account-wrapper.is-logged {
+    width: 300px;
+  }
+
+  .jx-header-account-wrapper.is-logged.twocolumns {
+    width: 500px;
+  }
+
+  .jx-header-account-wrapper.is-logged.twocolumns .user-data {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .jx-header-account-wrapper.is-logged.twocolumns .user-data img {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 30%;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-right: 20px;
+    border: 2px solid #f6f6f6;
+  }
+
+  .jx-header-account-wrapper.is-logged.twocolumns .user-data h3 {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .jx-header-account-wrapper.is-logged.twocolumns ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    list-style-position: inside;
+  }
+
+  .modal .jx-header-account-wrapper {
+    width: 100%;
+  }
+}
+
+.jx-header-account-wrapper .header-login-content {
+  display: none;
+}
+
+.jx-header-account-wrapper .header-login-content.active {
+  display: block;
+  max-height: none;
+  overflow: visible;
+}
+
+.jx-header-account-wrapper footer {
+  text-align: center;
+}
+
+.jx-header-account-wrapper footer .register-link {
+  margin-top: 10px;
+}
+
+.jx-header-account-wrapper .radio-inline {
+  margin-right: 20px;
+}
+
+.jx-header-account-wrapper .radio-inline:last-child {
+  margin-right: 0;
+}
+
+.jx-header-account-wrapper .radio-inline .custom-radio {
+  margin-right: 0;
+}
+
+.jx-header-account-wrapper .custom-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+}
+
+.jx-header-account-wrapper .custom-checkbox span {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 0.9375rem;
+  -webkit-flex: 0 0 0.9375rem;
+  -moz-box-flex: 0;
+  flex: 0 0 0.9375rem;
+}
+
+.jx-header-account-wrapper .custom-checkbox label {
+  padding-left: .625rem;
+}
+
+/*
+* @section      Style for social login buttons
+* @description  This section holds specific style for
+*               social login buttons
+*/
+
+.social-login-buttons {
+  margin: 0 -5px;
+}
+
+.social-login-buttons a {
+  display: inline-block;
+  margin: 0 5px 10px;
+}
+
+.social-login-buttons a i {
+  margin-right: 5px;
+}
+
+/*
+* @section      MODAL AS LEFT/RIGHT SIDEBAR
+* @description  Add "left" or "right" in modal parent div, after class="modal".
+*/
+
+.jx-header-account {
+  /*Left*/
+  /*Right*/
+}
+
+.jx-header-account .modal.left .modal-dialog,
+.jx-header-account .modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+@media (min-width: 768px) {
+  .jx-header-account .modal.left .modal-dialog,
+  .jx-header-account .modal.right .modal-dialog {
+    width: 500px;
+  }
+}
+
+.jx-header-account .modal.left .modal-content,
+.jx-header-account .modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.jx-header-account .modal.left.fade .modal-dialog {
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .jx-header-account .modal.left.fade .modal-dialog {
+    left: -500px;
+  }
+}
+
+.jx-header-account .modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+.jx-header-account .modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .jx-header-account .modal.right.fade .modal-dialog {
+    right: -500px;
+  }
+}
+
+.jx-header-account .modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+/*
+* @section      Style for login wrapper
+* @description  This section holds specific style redeclarations for
+*               login content wrapper
+*/
+
+#wrapper .jx-header-account-wrapper,
+#footer .jx-header-account-wrapper {
+  padding: 20px;
+  max-width: 100%;
+  margin-bottom: 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#wrapper .jx-header-account-wrapper [class^="col-"],
+#wrapper .jx-header-account-wrapper [class*=" col-"],
+#footer .jx-header-account-wrapper [class^="col-"],
+#footer .jx-header-account-wrapper [class*=" col-"] {
+  width: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  text-align: left;
+}

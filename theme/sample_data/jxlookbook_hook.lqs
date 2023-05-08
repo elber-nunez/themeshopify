@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxlookbook_hook`;
+CREATE TABLE `ps_jxlookbook_hook` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `active` int(11) NOT NULL,
+  `hook_name` text NOT NULL,
+  `type` text NOT NULL,
+  `id_collection` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook_hook */
+INSERT INTO `ps_jxlookbook_hook` VALUES
+('1','1','1','1','displayHome','2','1');

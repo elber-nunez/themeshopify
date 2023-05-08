@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_banner_lang`;
+CREATE TABLE `ps_jxmegalayout_extra_banner_lang` (
+  `id_extra_banner` int(11) NOT NULL AUTO_INCREMENT,
+  `id_lang` int(11) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `img` varchar(100) DEFAULT NULL,
+  `link` varchar(100) DEFAULT NULL,
+  `content` text,
+  PRIMARY KEY (`id_extra_banner`,`id_lang`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegalayout_extra_banner_lang */
+INSERT INTO `ps_jxmegalayout_extra_banner_lang` VALUES
+('18','1','Banner header','muLKi6uHKgFRaFwu.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('18','2','Banner header','muLKi6uHKgFRaFwu.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('18','3','Banner header','muLKi6uHKgFRaFwu.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('18','4','Banner header','muLKi6uHKgFRaFwu.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('18','5','Banner header','muLKi6uHKgFRaFwu.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('19','1','Footer banner','vupspgo2g4gKeOgL.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('19','2','Footer banner','vupspgo2g4gKeOgL.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('19','3','Footer banner','vupspgo2g4gKeOgL.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('19','4','Footer banner','vupspgo2g4gKeOgL.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL),
+('19','5','Footer banner','vupspgo2g4gKeOgL.jpg','//ld-prestashop.template-help.com/next-pres-fashion/index.php',NULL);

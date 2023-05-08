@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `ps_jxdaydeal`;
+CREATE TABLE `ps_jxdaydeal` (
+  `id_tab` int(11) NOT NULL AUTO_INCREMENT,
+  `id_product` int(11) NOT NULL,
+  `id_shop` int(11) NOT NULL,
+  `id_specific_price` int(11) NOT NULL,
+  `data_start` datetime NOT NULL,
+  `data_end` datetime NOT NULL,
+  `status` int(11) NOT NULL,
+  `discount_price` decimal(20,2) NOT NULL,
+  `reduction_type` varchar(128) DEFAULT NULL,
+  `reduction_tax` int(11) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxdaydeal */
+INSERT INTO `ps_jxdaydeal` VALUES
+('1','8','1','13','2018-02-28 00:00:00','2019-03-30 22:00:00','1','20.00','percentage','0'),
+('2','13','1','14','2018-03-02 00:00:00','2018-03-31 10:07:00','1','10.00','percentage','0');

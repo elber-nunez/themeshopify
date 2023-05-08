@@ -1,0 +1,177 @@
+#jxsearchblock, #jxsearchblock-blog {
+  position: relative; }
+  #jxsearchblock #jxsearchbox, #jxsearchblock #jxsearchbox-blog, #jxsearchblock-blog #jxsearchbox, #jxsearchblock-blog #jxsearchbox-blog {
+    width: 100%;
+    border: 1px solid #d6d4d4;
+    position: relative;
+    background: #fbfbfb;
+    padding-right: 0;
+    padding-left: 0; }
+    #jxsearchblock #jxsearchbox label, #jxsearchblock #jxsearchbox-blog label, #jxsearchblock-blog #jxsearchbox label, #jxsearchblock-blog #jxsearchbox-blog label {
+      color: #333333; }
+    #jxsearchblock #jxsearchbox span.input-group-addon, #jxsearchblock #jxsearchbox-blog span.input-group-addon, #jxsearchblock-blog #jxsearchbox span.input-group-addon, #jxsearchblock-blog #jxsearchbox-blog span.input-group-addon {
+      padding: 0;
+      border: none; }
+  #jxsearchblock .btn.button-search, #jxsearchblock-blog .btn.button-search {
+    background: #333333;
+    display: block;
+    border: none;
+    color: white;
+    width: 50px;
+    text-align: center;
+    padding: 10px 0 9px 0; }
+    #jxsearchblock .btn.button-search:before, #jxsearchblock-blog .btn.button-search:before {
+      content: "\f002";
+      display: block;
+      font-family: "FontAwesome";
+      font-size: 17px;
+      width: 100%;
+      text-align: center; }
+    #jxsearchblock .btn.button-search:hover, #jxsearchblock-blog .btn.button-search:hover {
+      color: #6f6f6f; }
+    #jxsearchblock .btn.button-search span, #jxsearchblock-blog .btn.button-search span {
+      display: none; }
+  #jxsearchblock select, #jxsearchblock-blog select {
+    border: none;
+    width: 180px; }
+    @media (max-width: 479px) {
+      #jxsearchblock select, #jxsearchblock-blog select {
+        width: 120px; } }
+    #jxsearchblock select option, #jxsearchblock-blog select option {
+      padding: 5px; }
+  #jxsearchblock #jx_search_query, #jxsearchblock #jx_blog_search_query, #jxsearchblock-blog #jx_search_query, #jxsearchblock-blog #jx_blog_search_query {
+    display: inline-block;
+    padding: 10px 10px 9px 13px;
+    border: none;
+    border-left: 1px solid #d6d4d4;
+    background: none;
+    box-shadow: none; }
+  #jxsearchblock #jxsearch_result, #jxsearchblock #jxsearch_blog_result, #jxsearchblock-blog #jxsearch_result, #jxsearchblock-blog #jxsearch_blog_result {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fbfbfb;
+    width: 100%;
+    z-index: 5;
+    padding: 15px;
+    border-top: 5px solid #f7f7f7; }
+    #jxsearchblock #jxsearch_result .search-page, #jxsearchblock #jxsearch_blog_result .search-page, #jxsearchblock-blog #jxsearch_result .search-page, #jxsearchblock-blog #jxsearch_blog_result .search-page {
+      overflow: hidden;
+      clear: both; }
+    #jxsearchblock #jxsearch_result .jxsearch-row, #jxsearchblock #jxsearch_blog_result .jxsearch-row, #jxsearchblock-blog #jxsearch_result .jxsearch-row, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-row {
+      padding: 15px;
+      margin-top: 30px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.15s ease; }
+      #jxsearchblock #jxsearch_result .jxsearch-row .jxsearch-inner-row, #jxsearchblock #jxsearch_blog_result .jxsearch-row .jxsearch-inner-row, #jxsearchblock-blog #jxsearch_result .jxsearch-row .jxsearch-inner-row, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-row .jxsearch-inner-row {
+        position: relative; }
+        #jxsearchblock #jxsearch_result .jxsearch-row .jxsearch-inner-row img, #jxsearchblock #jxsearch_blog_result .jxsearch-row .jxsearch-inner-row img, #jxsearchblock-blog #jxsearch_result .jxsearch-row .jxsearch-inner-row img, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-row .jxsearch-inner-row img {
+          margin-right: 15px;
+          background: #ffffff;
+          float: left; }
+      #jxsearchblock #jxsearch_result .jxsearch-row:first-child, #jxsearchblock #jxsearch_blog_result .jxsearch-row:first-child, #jxsearchblock-blog #jxsearch_result .jxsearch-row:first-child, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-row:first-child {
+        margin: 0; }
+      #jxsearchblock #jxsearch_result .jxsearch-row:hover, #jxsearchblock #jxsearch_blog_result .jxsearch-row:hover, #jxsearchblock-blog #jxsearch_result .jxsearch-row:hover, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-row:hover {
+        background: #f7f7f7; }
+    #jxsearchblock #jxsearch_result .reference, #jxsearchblock #jxsearch_result .quantity, #jxsearchblock #jxsearch_result .availability, #jxsearchblock #jxsearch_blog_result .reference, #jxsearchblock #jxsearch_blog_result .quantity, #jxsearchblock #jxsearch_blog_result .availability, #jxsearchblock-blog #jxsearch_result .reference, #jxsearchblock-blog #jxsearch_result .quantity, #jxsearchblock-blog #jxsearch_result .availability, #jxsearchblock-blog #jxsearch_blog_result .reference, #jxsearchblock-blog #jxsearch_blog_result .quantity, #jxsearchblock-blog #jxsearch_blog_result .availability {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 15px 0 0;
+      font-size: 12px; }
+      #jxsearchblock #jxsearch_result .reference.availability, #jxsearchblock #jxsearch_result .quantity.availability, #jxsearchblock #jxsearch_result .availability.availability, #jxsearchblock #jxsearch_blog_result .reference.availability, #jxsearchblock #jxsearch_blog_result .quantity.availability, #jxsearchblock #jxsearch_blog_result .availability.availability, #jxsearchblock-blog #jxsearch_result .reference.availability, #jxsearchblock-blog #jxsearch_result .quantity.availability, #jxsearchblock-blog #jxsearch_result .availability.availability, #jxsearchblock-blog #jxsearch_blog_result .reference.availability, #jxsearchblock-blog #jxsearch_blog_result .quantity.availability, #jxsearchblock-blog #jxsearch_blog_result .availability.availability {
+        text-decoration: underline; }
+      #jxsearchblock #jxsearch_result .reference.quantity, #jxsearchblock #jxsearch_result .quantity.quantity, #jxsearchblock #jxsearch_result .availability.quantity, #jxsearchblock #jxsearch_blog_result .reference.quantity, #jxsearchblock #jxsearch_blog_result .quantity.quantity, #jxsearchblock #jxsearch_blog_result .availability.quantity, #jxsearchblock-blog #jxsearch_result .reference.quantity, #jxsearchblock-blog #jxsearch_result .quantity.quantity, #jxsearchblock-blog #jxsearch_result .availability.quantity, #jxsearchblock-blog #jxsearch_blog_result .reference.quantity, #jxsearchblock-blog #jxsearch_blog_result .quantity.quantity, #jxsearchblock-blog #jxsearch_blog_result .availability.quantity {
+        color: #ccc; }
+    #jxsearchblock #jxsearch_result .name, #jxsearchblock #jxsearch_blog_result .name, #jxsearchblock-blog #jxsearch_result .name, #jxsearchblock-blog #jxsearch_blog_result .name {
+      display: block;
+      font-size: 15px;
+      line-height: 21px;
+      font-weight: bold;
+      margin: 5px 0; }
+      #jxsearchblock #jxsearch_result .name strong, #jxsearchblock #jxsearch_blog_result .name strong, #jxsearchblock-blog #jxsearch_result .name strong, #jxsearchblock-blog #jxsearch_blog_result .name strong {
+        color: black; }
+    #jxsearchblock #jxsearch_result .price, #jxsearchblock #jxsearch_blog_result .price, #jxsearchblock-blog #jxsearch_result .price, #jxsearchblock-blog #jxsearch_blog_result .price {
+      color: #333;
+      font-size: 13px;
+      font-weight: bold;
+      position: absolute;
+      right: 0;
+      top: 0; }
+      #jxsearchblock #jxsearch_result .price.new-price, #jxsearchblock #jxsearch_blog_result .price.new-price, #jxsearchblock-blog #jxsearch_result .price.new-price, #jxsearchblock-blog #jxsearch_blog_result .price.new-price {
+        color: red; }
+    #jxsearchblock #jxsearch_result .description-short, #jxsearchblock #jxsearch_blog_result .description-short, #jxsearchblock-blog #jxsearch_result .description-short, #jxsearchblock-blog #jxsearch_blog_result .description-short {
+      margin-bottom: 10px; }
+    #jxsearchblock #jxsearch_result div > strong, #jxsearchblock #jxsearch_blog_result div > strong, #jxsearchblock-blog #jxsearch_result div > strong, #jxsearchblock-blog #jxsearch_blog_result div > strong {
+      font-weight: normal;
+      color: black; }
+    #jxsearchblock #jxsearch_result .manufacturer-name, #jxsearchblock #jxsearch_result .supplier-name, #jxsearchblock #jxsearch_blog_result .manufacturer-name, #jxsearchblock #jxsearch_blog_result .supplier-name, #jxsearchblock-blog #jxsearch_result .manufacturer-name, #jxsearchblock-blog #jxsearch_result .supplier-name, #jxsearchblock-blog #jxsearch_blog_result .manufacturer-name, #jxsearchblock-blog #jxsearch_blog_result .supplier-name {
+      float: right;
+      margin-left: 20px;
+      display: block;
+      background: #ffffff;
+      padding: 3px 7px;
+      font-size: 11px;
+      line-height: 15px; }
+    #jxsearchblock #jxsearch_result.loading, #jxsearchblock #jxsearch_blog_result.loading, #jxsearchblock-blog #jxsearch_result.loading, #jxsearchblock-blog #jxsearch_blog_result.loading {
+      opacity: 0.5; }
+    #jxsearchblock #jxsearch_result div.hidden-row, #jxsearchblock #jxsearch_result div.hidden-page, #jxsearchblock #jxsearch_blog_result div.hidden-row, #jxsearchblock #jxsearch_blog_result div.hidden-page, #jxsearchblock-blog #jxsearch_result div.hidden-row, #jxsearchblock-blog #jxsearch_result div.hidden-page, #jxsearchblock-blog #jxsearch_blog_result div.hidden-row, #jxsearchblock-blog #jxsearch_blog_result div.hidden-page {
+      display: none; }
+    #jxsearchblock #jxsearch_result .pagers, #jxsearchblock #jxsearch_blog_result .pagers, #jxsearchblock-blog #jxsearch_result .pagers, #jxsearchblock-blog #jxsearch_blog_result .pagers {
+      float: right;
+      padding-top: 15px; }
+      #jxsearchblock #jxsearch_result .pagers a, #jxsearchblock #jxsearch_blog_result .pagers a, #jxsearchblock-blog #jxsearch_result .pagers a, #jxsearchblock-blog #jxsearch_blog_result .pagers a {
+        background: #f7f7f7;
+        padding: 5px 10px;
+        margin: 0 3px;
+        display: inline-block;
+        text-decoration: none; }
+        #jxsearchblock #jxsearch_result .pagers a:hover, #jxsearchblock #jxsearch_result .pagers a.active, #jxsearchblock #jxsearch_result .pagers a:focus, #jxsearchblock #jxsearch_blog_result .pagers a:hover, #jxsearchblock #jxsearch_blog_result .pagers a.active, #jxsearchblock #jxsearch_blog_result .pagers a:focus, #jxsearchblock-blog #jxsearch_result .pagers a:hover, #jxsearchblock-blog #jxsearch_result .pagers a.active, #jxsearchblock-blog #jxsearch_result .pagers a:focus, #jxsearchblock-blog #jxsearch_blog_result .pagers a:hover, #jxsearchblock-blog #jxsearch_blog_result .pagers a.active, #jxsearchblock-blog #jxsearch_blog_result .pagers a:focus {
+          background: #f1f0f0;
+          color: #000;
+          outline: none; }
+    #jxsearchblock #jxsearch_result .navigation, #jxsearchblock #jxsearch_blog_result .navigation, #jxsearchblock-blog #jxsearch_result .navigation, #jxsearchblock-blog #jxsearch_blog_result .navigation {
+      float: right;
+      padding-top: 15px; }
+      #jxsearchblock #jxsearch_result .navigation.top, #jxsearchblock #jxsearch_blog_result .navigation.top, #jxsearchblock-blog #jxsearch_result .navigation.top, #jxsearchblock-blog #jxsearch_blog_result .navigation.top {
+        padding-top: 0;
+        padding-bottom: 15px; }
+      #jxsearchblock #jxsearch_result .navigation > a, #jxsearchblock #jxsearch_blog_result .navigation > a, #jxsearchblock-blog #jxsearch_result .navigation > a, #jxsearchblock-blog #jxsearch_blog_result .navigation > a {
+        float: left;
+        font-size: 24px;
+        padding: 2px 0;
+        text-decoration: none; }
+        #jxsearchblock #jxsearch_result .navigation > a.disabled, #jxsearchblock #jxsearch_blog_result .navigation > a.disabled, #jxsearchblock-blog #jxsearch_result .navigation > a.disabled, #jxsearchblock-blog #jxsearch_blog_result .navigation > a.disabled {
+          cursor: default;
+          color: #cccccc; }
+        #jxsearchblock #jxsearch_result .navigation > a:hover, #jxsearchblock #jxsearch_result .navigation > a.active, #jxsearchblock #jxsearch_result .navigation > a:focus, #jxsearchblock #jxsearch_blog_result .navigation > a:hover, #jxsearchblock #jxsearch_blog_result .navigation > a.active, #jxsearchblock #jxsearch_blog_result .navigation > a:focus, #jxsearchblock-blog #jxsearch_result .navigation > a:hover, #jxsearchblock-blog #jxsearch_result .navigation > a.active, #jxsearchblock-blog #jxsearch_result .navigation > a:focus, #jxsearchblock-blog #jxsearch_blog_result .navigation > a:hover, #jxsearchblock-blog #jxsearch_blog_result .navigation > a.active, #jxsearchblock-blog #jxsearch_blog_result .navigation > a:focus {
+          outline: none; }
+      #jxsearchblock #jxsearch_result .navigation .pagers, #jxsearchblock #jxsearch_blog_result .navigation .pagers, #jxsearchblock-blog #jxsearch_result .navigation .pagers, #jxsearchblock-blog #jxsearch_blog_result .navigation .pagers {
+        float: left;
+        padding-top: 0; }
+      #jxsearchblock #jxsearch_result .navigation .count-pages, #jxsearchblock #jxsearch_blog_result .navigation .count-pages, #jxsearchblock-blog #jxsearch_result .navigation .count-pages, #jxsearchblock-blog #jxsearch_blog_result .navigation .count-pages {
+        float: left;
+        font-size: 17px;
+        padding: 5px 10px; }
+        #jxsearchblock #jxsearch_result .navigation .count-pages .current, #jxsearchblock #jxsearch_blog_result .navigation .count-pages .current, #jxsearchblock-blog #jxsearch_result .navigation .count-pages .current, #jxsearchblock-blog #jxsearch_blog_result .navigation .count-pages .current {
+          color: #000000; }
+    #jxsearchblock #jxsearch_result .jxsearch-alllink, #jxsearchblock #jxsearch_blog_result .jxsearch-alllink, #jxsearchblock-blog #jxsearch_result .jxsearch-alllink, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-alllink {
+      padding-top: 20px;
+      float: left; }
+      #jxsearchblock #jxsearch_result .jxsearch-alllink a, #jxsearchblock #jxsearch_blog_result .jxsearch-alllink a, #jxsearchblock-blog #jxsearch_result .jxsearch-alllink a, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-alllink a {
+        display: block; }
+        #jxsearchblock #jxsearch_result .jxsearch-alllink a:after, #jxsearchblock #jxsearch_blog_result .jxsearch-alllink a:after, #jxsearchblock-blog #jxsearch_result .jxsearch-alllink a:after, #jxsearchblock-blog #jxsearch_blog_result .jxsearch-alllink a:after {
+          font-family: "FontAwesome";
+          content: '\f021';
+          font-size: 24px;
+          margin-left: 10px;
+          vertical-align: -4px;
+          color: #85ce90; }
+
+#jxsearch-tab {
+  border: none;
+  font-size: 11px; }
+  #jxsearch-tab li a {
+    padding: .3em .3em; }
+
+/*# sourceMappingURL=jxsearch.css.map */

@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxlookbook_lang`;
+CREATE TABLE `ps_jxlookbook_lang` (
+  `id_collection` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook_lang */
+INSERT INTO `ps_jxlookbook_lang` VALUES
+('1','1','Summer collection','<p>Summer is perfect for transformation of your fashionable image.</p>'),
+('1','2','Summer collection','<p>Summer is perfect for transformation of your fashionable image.</p>'),
+('1','3','Summer collection','<p>Summer is perfect for transformation of your fashionable image.</p>'),
+('1','4','Summer collection','<p>Summer is perfect for transformation of your fashionable image.</p>'),
+('1','5','Summer collection','<p>Summer is perfect for transformation of your fashionable image.</p>');

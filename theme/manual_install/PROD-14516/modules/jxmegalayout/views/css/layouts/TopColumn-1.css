@@ -1,0 +1,42 @@
+/* This comment is here to prevent an error during the including an empty file */
+@media (min-width: 992px) {
+  #index .header-white .logo .dark {
+    display: none;
+  }
+
+  #index .header-white .logo .light {
+    display: inline-block;
+  }
+
+  #index .header-white .default-menu {
+    color: #ffffff;
+  }
+
+  #index .header-white .default-menu > ul > li > .sf-with-ul:after {
+    color: inherit;
+  }
+
+  #index .header-white .default-menu > ul > li.sfHover > a,
+  #index .header-white .default-menu > ul > li.sfHoverForce > a,
+  #index .header-white .default-menu > ul > li.sfHover > .top-level-menu-li-span,
+  #index .header-white .default-menu > ul > li.sfHoverForce > .top-level-menu-li-span,
+  #index .header-white .default-menu > ul > li > a:hover,
+  #index .header-white .default-menu > ul > li > .top-level-menu-li-span:hover {
+    color: #4f4f4f;
+  }
+
+  #index .header-white .icon-toggle {
+    color: #ffffff;
+  }
+  #index .header-white .icon-toggle:hover {
+    color: #4f4f4f;
+  }
+
+  #index .header-white .jxwishlist-link {
+    color: #ffffff;
+  }
+
+  #index .header-white .jxwishlist-link:hover {
+    color: #4f4f4f;
+  }
+}

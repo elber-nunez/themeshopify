@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_jxgooglemap_lang`;
+CREATE TABLE `ps_jxgooglemap_lang` (
+  `id_tab` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxgooglemap_lang */
+INSERT INTO `ps_jxgooglemap_lang` VALUES
+('1','1',''),
+('1','2',''),
+('1','3',''),
+('1','4',''),
+('1','5','');

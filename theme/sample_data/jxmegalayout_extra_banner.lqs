@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_banner`;
+CREATE TABLE `ps_jxmegalayout_extra_banner` (
+  `id_extra_banner` int(11) NOT NULL AUTO_INCREMENT,
+  `specific_class` text,
+  PRIMARY KEY (`id_extra_banner`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegalayout_extra_banner */
+INSERT INTO `ps_jxmegalayout_extra_banner` VALUES
+('18',NULL),
+('19',NULL);

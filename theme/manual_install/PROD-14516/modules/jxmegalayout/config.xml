@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jxmegalayout</name>
+    <displayName><![CDATA[JX Mega Layout]]></displayName>
+    <version><![CDATA[1.5.1]]></version>
+    <description><![CDATA[Module adds more functionality for hooks.]]></description>
+    <author><![CDATA[Zemez (Alexander Grosul & Alexander Pervakov)]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_pages`;
+CREATE TABLE `ps_jxmegalayout_pages` (
+  `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_layout` int(11) NOT NULL,
+  `id_shop` int(11) NOT NULL,
+  `page_name` varchar(100) DEFAULT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`id_item`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

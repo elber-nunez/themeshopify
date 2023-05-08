@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxblog_category`;
+CREATE TABLE `ps_jxblog_category` (
+  `id_jxblog_category` int(10) NOT NULL AUTO_INCREMENT,
+  `active` int(1) NOT NULL,
+  `position` int(10) NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  PRIMARY KEY (`id_jxblog_category`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxblog_category */
+INSERT INTO `ps_jxblog_category` VALUES
+('1','1','0','2018-10-26 04:17:48','2018-11-19 07:08:07'),
+('2','1','1','2018-10-26 04:18:06','2018-11-19 07:08:21'),
+('3','1','2','2018-10-26 04:18:19','2018-11-19 07:08:32');

@@ -1,0 +1,32 @@
+#views_block-1 {
+  margin-top: 10px;
+}
+
+#image-block .span_link {
+  z-index: 1000;
+}
+
+.zoomLens {
+  max-width: 100%;
+}
+
+body > * .zoomContainer {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.images-container .product-cover .layer {
+  opacity: 1;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: 10px;
+  right: 10px;
+  z-index: 6;
+  background: none;
+}
+
+.images-container .product-cover .layer i {
+  font-size: 30px;
+  line-height: 1;
+}

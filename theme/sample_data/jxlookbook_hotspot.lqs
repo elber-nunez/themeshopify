@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_jxlookbook_hotspot`;
+CREATE TABLE `ps_jxlookbook_hotspot` (
+  `id_spot` int(11) NOT NULL AUTO_INCREMENT,
+  `id_tab` int(11) NOT NULL,
+  `type` int(11) NOT NULL,
+  `coordinates` varchar(450) NOT NULL,
+  `id_product` int(11) NOT NULL,
+  PRIMARY KEY (`id_spot`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook_hotspot */
+INSERT INTO `ps_jxlookbook_hotspot` VALUES
+('1','1','1','{\"x\":35,\"y\":51}','32'),
+('2','1','1','{\"x\":51,\"y\":92}','29');

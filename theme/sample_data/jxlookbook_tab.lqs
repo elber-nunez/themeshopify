@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `ps_jxlookbook_tab`;
+CREATE TABLE `ps_jxlookbook_tab` (
+  `id_tab` int(11) NOT NULL AUTO_INCREMENT,
+  `id_collection` int(11) NOT NULL,
+  `sort_order` int(11) NOT NULL,
+  `active` int(11) NOT NULL,
+  `image` varchar(450) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook_tab */
+INSERT INTO `ps_jxlookbook_tab` VALUES
+('1','1','1','1','img/cms/lookbook_1.jpg');

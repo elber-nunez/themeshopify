@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS `ps_jxmegamenu_items`;
+CREATE TABLE `ps_jxmegamenu_items` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_tab` int(11) NOT NULL,
+  `row` int(11) NOT NULL DEFAULT '1',
+  `col` int(11) NOT NULL DEFAULT '1',
+  `width` int(11) DEFAULT NULL,
+  `class` varchar(100) DEFAULT NULL,
+  `type` int(11) NOT NULL DEFAULT '0',
+  `is_mega` int(11) NOT NULL DEFAULT '0',
+  `settings` varchar(10000) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=113 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegamenu_items */
+INSERT INTO `ps_jxmegamenu_items` VALUES
+('27','2','1','1',NULL,NULL,'0','0','CAT52,CAT53,CAT54,CAT55,CAT56,CAT57'),
+('110','1','1','1','4',NULL,'0','1','CAT17'),
+('111','1','1','3','4',NULL,'0','1','CAT18'),
+('112','1','1','4','4',NULL,'0','1','CAT19');

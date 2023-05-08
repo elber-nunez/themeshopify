@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS `ps_psgdpr_log`;
+CREATE TABLE `ps_psgdpr_log` (
+  `id_gdpr_log` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_customer` int(10) unsigned DEFAULT NULL,
+  `id_guest` int(10) unsigned DEFAULT NULL,
+  `client_name` varchar(250) DEFAULT NULL,
+  `id_module` int(10) unsigned NOT NULL,
+  `request_type` int(10) NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  PRIMARY KEY (`id_gdpr_log`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

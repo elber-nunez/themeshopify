@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS `ps_jxmegamenu`;
+CREATE TABLE `ps_jxmegamenu` (
+  `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL DEFAULT '1',
+  `sort_order` int(11) NOT NULL DEFAULT '0',
+  `specific_class` varchar(100) DEFAULT NULL,
+  `hook_name` varchar(100) DEFAULT NULL,
+  `is_mega` int(11) NOT NULL DEFAULT '0',
+  `is_simple` int(11) NOT NULL DEFAULT '0',
+  `is_custom_url` int(11) NOT NULL DEFAULT '0',
+  `active` int(11) NOT NULL DEFAULT '1',
+  `unique_code` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_item`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxmegamenu */
+INSERT INTO `ps_jxmegamenu` VALUES
+('1','1','0',NULL,'displayTop','1','0','0','1','it_59635594'),
+('2','1','0',NULL,'displayTop','0','1','0','1','it_59937739'),
+('3','1','0',NULL,'displayTop','0','0','0','1','it_73963834'),
+('4','1','0',NULL,'displayTop','0','0','0','1','it_86947473'),
+('5','1','0',NULL,'displayTop','0','0','1','1','it_66465204');

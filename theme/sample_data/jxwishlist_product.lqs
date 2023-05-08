@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS `ps_jxwishlist_product`;
+CREATE TABLE `ps_jxwishlist_product` (
+  `id_wishlist_product` int(10) NOT NULL AUTO_INCREMENT,
+  `id_wishlist` int(10) unsigned NOT NULL,
+  `id_product` int(10) unsigned NOT NULL,
+  `id_product_attribute` int(10) unsigned NOT NULL,
+  `quantity` int(10) unsigned NOT NULL,
+  `date_add` datetime NOT NULL,
+  PRIMARY KEY (`id_wishlist_product`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxwishlist_product */
+INSERT INTO `ps_jxwishlist_product` VALUES
+('2','1','15','125','1','2018-04-11 08:56:00'),
+('3','1','11','85','1','2018-04-11 11:47:00'),
+('4','1','10','73','2','2018-04-19 04:57:00');

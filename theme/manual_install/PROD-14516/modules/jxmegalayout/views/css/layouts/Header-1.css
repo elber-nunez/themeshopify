@@ -1,0 +1,49 @@
+/* This comment is here to prevent an error during the including an empty file */
+
+#header .isStuck .jx_search_query, #header .isStuck .jx_blog_search_query, #header .isStuck .jxsearch-wrapper .jxsearch-result {
+  background: #f7f7f7;
+  box-shadow: none;
+}
+#header .isStuck .jxsearch-wrapper .jxsearch-result > div .jxsearch-row:first-child {
+  margin-top: 30px;
+}
+#header .isStuck .jxsearch-wrapper .jxsearch-result > div .jxsearch-row:hover {
+  background: #ffffff;
+}
+
+#header .language-selector > span, #header .currency-selector > span {
+  display: none !important;
+}
+
+#header .language-selector > .dropdown-menu, #header .currency-selector > .dropdown-menu {
+  position: static;
+  display: block;
+  background: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  float: none;
+}
+
+@media (min-width: 768px) {
+  #header .jx-header-account {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+
+  #header #jx-header-account-link {
+    color: #16171d !important;
+  }
+
+  #header #jx-header-account-link:hover, #header #jx-header-account-link:focus {
+    color: #787878 !important;
+  }
+
+  #header .jx-header-account #jx-header-account-link > i {
+    display: none;
+  }
+
+  #header .jx-header-account #jx-header-account-link > span {
+    display: block;
+  }
+}

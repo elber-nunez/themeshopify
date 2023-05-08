@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_slider_item`;
+CREATE TABLE `ps_jxmegalayout_extra_slider_item` (
+  `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_extra_slider` int(11) DEFAULT NULL,
+  `type` varchar(100) DEFAULT NULL,
+  `id_content` varchar(100) DEFAULT NULL,
+  `position` int(11) NOT NULL,
+  PRIMARY KEY (`id_item`)
+) ENGINE=InnoDB AUTO_INCREMENT=73 DEFAULT CHARSET=utf8;
+

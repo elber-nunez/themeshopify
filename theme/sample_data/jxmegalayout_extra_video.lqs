@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `ps_jxmegalayout_extra_video`;
+CREATE TABLE `ps_jxmegalayout_extra_video` (
+  `id_extra_video` int(11) NOT NULL AUTO_INCREMENT,
+  `specific_class` text,
+  PRIMARY KEY (`id_extra_video`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

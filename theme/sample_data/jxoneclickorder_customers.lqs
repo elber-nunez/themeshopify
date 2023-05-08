@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `ps_jxoneclickorder_customers`;
+CREATE TABLE `ps_jxoneclickorder_customers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_order` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `number` text NOT NULL,
+  `address` text NOT NULL,
+  `message` text NOT NULL,
+  `email` text NOT NULL,
+  `datetime` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxoneclickorder_customers */
+INSERT INTO `ps_jxoneclickorder_customers` VALUES
+('1','1','Global','12345678','','','','[]'),
+('2','2','Global','777777777777','','','','[]');

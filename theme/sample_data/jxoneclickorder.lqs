@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `ps_jxoneclickorder`;
+CREATE TABLE `ps_jxoneclickorder` (
+  `id_order` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `status` text NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  `shown` int(11) NOT NULL,
+  `id_cart` int(11) NOT NULL,
+  `id_employee` int(11) NOT NULL,
+  `id_original_order` int(11) NOT NULL,
+  `description` text NOT NULL,
+  PRIMARY KEY (`id_order`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxoneclickorder */
+INSERT INTO `ps_jxoneclickorder` VALUES
+('1','1','new','2018-12-18 09:29:10','2018-12-18 09:29:20','1','10','0','0','0000-00-00'),
+('2','1','new','2018-12-18 09:29:39','2018-12-18 09:29:42','1','11','0','0','0000-00-00');

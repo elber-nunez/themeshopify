@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS `ps_jxblog_post_category`;
+CREATE TABLE `ps_jxblog_post_category` (
+  `id_jxblog_post` int(10) NOT NULL,
+  `id_jxblog_category` int(1) NOT NULL,
+  PRIMARY KEY (`id_jxblog_post`,`id_jxblog_category`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxblog_post_category */
+INSERT INTO `ps_jxblog_post_category` VALUES
+('1','1'),
+('1','2'),
+('1','3'),
+('2','1'),
+('2','2'),
+('2','3'),
+('3','1'),
+('3','2'),
+('3','3'),
+('4','1'),
+('4','2'),
+('4','3');

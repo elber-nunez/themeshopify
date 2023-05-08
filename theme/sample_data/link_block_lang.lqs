@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS `ps_link_block_lang`;
+CREATE TABLE `ps_link_block_lang` (
+  `id_link_block` int(10) unsigned NOT NULL,
+  `id_lang` int(10) unsigned NOT NULL,
+  `name` varchar(40) NOT NULL DEFAULT '',
+  `custom_content` text,
+  PRIMARY KEY (`id_link_block`,`id_lang`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_link_block_lang */
+INSERT INTO `ps_link_block_lang` VALUES
+('2','1','Information','[]'),
+('2','2','Information','[]'),
+('2','3','Информация','[]'),
+('2','4','Información','[]'),
+('2','5','Information','[]'),
+('3','1','HeaderLinks','{\"1\":{\"title\":\"Blog\",\"url\":\"index.php?fc=module&module=jxblog&controller=categories\"}}'),
+('3','2','','{\"1\":{\"title\":\"Blog\",\"url\":\"index.php?fc=module&module=jxblog&controller=categories\"}}'),
+('3','3','','{\"1\":{\"title\":\"Blog\",\"url\":\"index.php?fc=module&module=jxblog&controller=categories\"}}'),
+('3','4','','{\"1\":{\"title\":\"Blog\",\"url\":\"index.php?fc=module&module=jxblog&controller=categories\"}}'),
+('3','5','','{\"1\":{\"title\":\"Blog\",\"url\":\"index.php?fc=module&module=jxblog&controller=categories\"}}');

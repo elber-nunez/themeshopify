@@ -1,0 +1,13 @@
+/* This comment is here to prevent an error during the including an empty file */
+
+@media (max-width: 767px) {
+  .block-newsletter > h3 {
+    display: none;
+  }
+  .block-newsletter .form-control {
+    width: 100%;
+  }
+  .block-newsletter .input-group-btn {
+    margin: 10px auto 0 !important;
+  }
+}

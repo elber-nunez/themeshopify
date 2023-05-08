@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_jxwishlist`;
+CREATE TABLE `ps_jxwishlist` (
+  `id_wishlist` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(10) unsigned NOT NULL,
+  `id_customer` int(10) unsigned NOT NULL,
+  `token` varchar(64) NOT NULL,
+  `name` varchar(64) NOT NULL,
+  PRIMARY KEY (`id_wishlist`,`id_shop`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxwishlist */
+INSERT INTO `ps_jxwishlist` VALUES
+('1','1','2','50E453E9D1F298AF','Wishlists 1'),
+('2','1','2','656CFE583187FFD5','Wishlists 2');

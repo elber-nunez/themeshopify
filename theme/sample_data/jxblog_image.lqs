@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `ps_jxblog_image`;
+CREATE TABLE `ps_jxblog_image` (
+  `id_jxblog_image` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(40) NOT NULL DEFAULT '',
+  `width` int(10) NOT NULL,
+  `height` int(10) NOT NULL,
+  `category` int(10) NOT NULL,
+  `category_thumb` int(10) NOT NULL,
+  `post` int(10) NOT NULL,
+  `post_thumb` int(10) NOT NULL,
+  `user` int(10) NOT NULL,
+  PRIMARY KEY (`id_jxblog_image`,`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxblog_image */
+INSERT INTO `ps_jxblog_image` VALUES
+('1','default_thumb','420','270','0','1','0','1','0');

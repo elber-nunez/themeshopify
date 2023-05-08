@@ -1,0 +1,65 @@
+/**
+* 2017-2018 Zemez
+*
+* JX Deal of Day
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the General Public License (GPL 2.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/GPL-2.0
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade the module to newer
+* versions in the future.
+*
+*  @author    Zemez (Sergiy Sakun)
+*  @copyright 2017-2018 Zemez
+*  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+*/
+
+.daydeal-box {
+	padding: 5px;
+	h3 {
+		color: red;
+	}
+	> div > span{
+		display: inline-block;
+		padding-right: 7px;
+	}
+	> div > span > span {
+		display: inline-block;
+		padding-right: 3px;
+	}
+}
+#content {
+	.label-daydeal {
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		display: inline-block;
+		padding: 5px 12px;
+		background: #FF0;
+		color: #333;
+	}
+	.product-miniature {
+		.thumbnail-container {
+			.product-description {
+				height: 140px;
+			}
+			&:hover {
+				.highlighted-informations {
+					bottom: 10rem;
+				}
+			}
+		}
+	}
+	.thumbnail-container {
+		height: 390px;
+	}
+	.product-description {
+		height: 140px;
+	}
+}

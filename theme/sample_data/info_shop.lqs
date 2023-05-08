@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `ps_info_shop`;
+CREATE TABLE `ps_info_shop` (
+  `id_info` int(10) unsigned NOT NULL,
+  `id_shop` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id_info`,`id_shop`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

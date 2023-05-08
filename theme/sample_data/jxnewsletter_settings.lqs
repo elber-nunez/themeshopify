@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS `ps_jxnewsletter_settings`;
+CREATE TABLE `ps_jxnewsletter_settings` (
+  `id_jxnewsletter` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `is_guest` int(11) NOT NULL,
+  `verification` int(11) NOT NULL,
+  `timeout` float NOT NULL,
+  `ft_delay` float NOT NULL,
+  `status` int(1) NOT NULL,
+  PRIMARY KEY (`id_jxnewsletter`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxnewsletter_settings */
+INSERT INTO `ps_jxnewsletter_settings` VALUES
+('9','1','0','0','1','0.25','1'),
+('10','1','1','0','1','0.25','1');

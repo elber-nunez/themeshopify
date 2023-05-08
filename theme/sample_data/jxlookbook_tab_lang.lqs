@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxlookbook_tab_lang`;
+CREATE TABLE `ps_jxlookbook_tab_lang` (
+  `id_tab` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxlookbook_tab_lang */
+INSERT INTO `ps_jxlookbook_tab_lang` VALUES
+('1','1','With what to wear a woman\'s short coat','<p>Get recommendations in the form of fashionable bows that you can repeat from your belongings.</p>'),
+('1','2','With what to wear a woman\'s short coat','<p>Get recommendations in the form of fashionable bows that you can repeat from your belongings.</p>'),
+('1','3','With what to wear a woman\'s short coat','<p>Get recommendations in the form of fashionable bows that you can repeat from your belongings.</p>'),
+('1','4','With what to wear a woman\'s short coat','<p>Get recommendations in the form of fashionable bows that you can repeat from your belongings.</p>'),
+('1','5','With what to wear a woman\'s short coat','<p>Get recommendations in the form of fashionable bows that you can repeat from your belongings.</p>');

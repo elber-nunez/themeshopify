@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `ps_jxfeaturedposts`;
+CREATE TABLE `ps_jxfeaturedposts` (
+  `id_featured_post` int(10) NOT NULL AUTO_INCREMENT,
+  `id_post` int(10) NOT NULL,
+  `id_shop` int(10) NOT NULL,
+  `position` int(10) NOT NULL DEFAULT '1',
+  `active` int(10) NOT NULL,
+  PRIMARY KEY (`id_featured_post`,`id_post`,`id_shop`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_jxfeaturedposts */
+INSERT INTO `ps_jxfeaturedposts` VALUES
+('1','1','1','0','1'),
+('2','2','1','1','1'),
+('3','3','1','1','1');
